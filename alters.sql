@@ -2,6 +2,7 @@
 -- Feel free to alter this to keep or remove any columns you want.
 ALTER TABLE `items`
     DROP COLUMN `class`,
+    DROP COLUMN `AllowableRace`, -- This one could be useful
     DROP COLUMN `subclass`,
     DROP COLUMN `unk0`,
     DROP COLUMN `Flags`,
@@ -139,7 +140,7 @@ ALTER TABLE `items`
     RENAME COLUMN `displayid`      TO `display_id`,
     RENAME COLUMN `InventoryType`  TO `inventory_type`,
     RENAME COLUMN `AllowableClass` TO `allowable_class`,
-    RENAME COLUMN `AllowableRace`  TO `aAllowable_race`,
+    -- RENAME COLUMN `AllowableRace`  TO `allowable_race`,
     RENAME COLUMN `ItemLevel`      TO `item_level`,
     RENAME COLUMN `RequiredLevel`  TO `required_level`,
     RENAME COLUMN `itemset`        TO `set_id`;
