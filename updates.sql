@@ -3,7 +3,7 @@ DELETE FROM `items` WHERE `item_id` IN (18583,18584);
 
 -- Magtheridon's Head has duplicates for Horde and Alliance
 -- Allowing duplicates results in people picking the wrong one for wishlists or having to list two
-DELETE FROM `items` WHERE `item_id` = 32385;
+DELETE FROM `items` WHERE `item_id` = 32386;
 -- 32386 = Alliance
 -- 32385 = Horde
 
