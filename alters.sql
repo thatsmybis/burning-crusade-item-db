@@ -229,5 +229,3 @@ WHERE
         OR `item_id` IN (5502, 6899, 13214, 6255, 16104)
     )
     AND `item_id` NOT IN (19971, 18361, 19160, 19971);
-
-UPDATE `items`
