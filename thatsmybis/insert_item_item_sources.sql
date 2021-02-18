@@ -191,7 +191,6 @@ VALUES
     (97, 28804, "2021-02-16 00:00:00"), -- collar-of-chogall
     (97, 28803, "2021-02-16 00:00:00"), -- cowl-of-natures-breath
     (97, 28830, "2021-02-16 00:00:00"), -- dragonspine-trophy
-    (97, 28830, "2021-02-16 00:00:00"), -- dragonspine-trophy
     (97, 28823, "2021-02-16 00:00:00"), -- eye-of-gruul
     (97, 28824, "2021-02-16 00:00:00"), -- gauntlets-of-martial-perfection
     (97, 28827, "2021-02-16 00:00:00"), -- gauntlets-of-the-dragonslayer
@@ -326,7 +325,6 @@ VALUES
     (106, 30621, "2021-02-16 00:00:00"), -- prism-of-inner-calm
     (106, 30109, "2021-02-16 00:00:00"), -- ring-of-endless-coils
     (106, 30111, "2021-02-16 00:00:00"), -- runetotems-mantle
-    (106, 30105, "2021-02-16 00:00:00"), -- serpent-spine-longbow
     (106, 30105, "2021-02-16 00:00:00"), -- serpent-spine-longbow
     (106, 30107, "2021-02-16 00:00:00"); -- vestments-of-the-sea-witch
 
