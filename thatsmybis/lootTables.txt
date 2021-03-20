@@ -882,3 +882,26 @@
         34242, -- tattered-cape-of-antonidas
         34343, -- thalassian-ranger-gauntlets
         34334, -- thoridal-the-stars-fury
+null, "TBC World Bosses"
+    18728, "Doom Lord Kazzak"
+        30735, -- ancient-spellcloak-of-the-highborne
+        30732, -- exodar-life-staff
+        30737, -- gold-leaf-wildboots
+        30733, -- hope-ender
+        30734, -- leggings-of-the-seventh-circle
+        30736, -- ring-of-flowing-light
+        30738, -- ring-of-reciprocity
+        30740, -- ripfiend-shoulderplates
+        30739, -- scaled-greaves-of-the-marksman
+        30741, -- topaz-studded-battlegrips
+    17711, "Doomwalker"
+        30725, -- anger-spark-gloves
+        30726, -- archaic-charm-of-presence
+        30724, -- barrel-blade-longrifle
+        30729, -- black-iron-battlecloak
+        30722, -- ethereum-nexus-reaver
+        30731, -- faceguard-of-the-endless-watch
+        30728, -- fathom-helm-of-the-deeps
+        30727, -- gilded-trousers-of-benediction
+        30723, -- talon-of-the-tempest
+        30730, -- terrorweave-tunic

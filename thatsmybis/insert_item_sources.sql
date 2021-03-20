@@ -75,4 +75,7 @@ INSERT INTO `item_sources` (`name`, `slug`, `instance_id`, `npc_id`, `object_id`
     ("Felmyst",      "felmyst",      17, 25038, null, 5, "2021-02-16 00:00:00"),
     ("Eredar Twins", "eredar-twins", 17, 25166, null, 6, "2021-02-16 00:00:00"),
     ("M'uru",        "muru",         17, 25741, null, 7, "2021-02-16 00:00:00"),
-    ("Kil'Jaeden",   "kiljaeden",    17, 25315, null, 8, "2021-02-16 00:00:00");
+    ("Kil'Jaeden",   "kiljaeden",    17, 25315, null, 8, "2021-02-16 00:00:00"),
+    -- BC World Bosses
+    ("Doom Lord Kazzak", "doom-lord-kazzak", 18, 18728, null, 1, "2021-03-20 00:00:00"),
+    ("Doomwalker",       "doomwalker",       18, 17711, null, 2, "2021-03-20 00:00:00");

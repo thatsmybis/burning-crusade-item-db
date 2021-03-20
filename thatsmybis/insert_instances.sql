@@ -10,4 +10,5 @@ VALUES
     ("Tempest Keep",         "tempest-keep",         14, "2021-02-16 00:00:00"), -- 3842
     ("Black Temple",         "black-temple",         15, "2021-02-16 00:00:00"), -- 3959
     ("Zul\'Aman",            "zulaman",              16, "2021-02-16 00:00:00"), -- 3805
-    ("Sunwell Plateau",      "sunwell-plateau",      17, "2021-02-16 00:00:00"); -- 4075
+    ("Sunwell Plateau",      "sunwell-plateau",      17, "2021-02-16 00:00:00"), -- 4075
+    ("World Bosses",         "bc-world-bosses",      18, "2021-03-20 00:00:00");

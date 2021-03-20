@@ -331,7 +331,7 @@ VALUES
 INSERT INTO `item_item_sources` (`item_source_id`, `item_id`, `created_at`)
 VALUES
 -- The Battle for Mount Hyjal
-    -- Trash" --  Not sure if trash loot is complet
+    -- Trash -- Not sure if trash loot is complete
     (107, 32609, "2021-02-16 00:00:00"), -- boots-of-the-divine-light
     (107, 32592, "2021-02-16 00:00:00"), -- chestguard-of-relentless-storms
     (107, 32591, "2021-02-16 00:00:00"), -- choker-of-serrated-blades
@@ -905,3 +905,29 @@ VALUES
     (147, 34242, "2021-02-16 00:00:00"), -- tattered-cape-of-antonidas
     (147, 34343, "2021-02-16 00:00:00"), -- thalassian-ranger-gauntlets
     (147, 34334, "2021-02-16 00:00:00"); -- thoridal-the-stars-fury
+
+INSERT INTO `item_item_sources` (`item_source_id`, `item_id`, `created_at`)
+VALUES
+-- TBC World Bosses
+    -- Doom Lord Kazzak
+    (148, 30735, "2021-03-20 00:00:00"), -- ancient-spellcloak-of-the-highborne
+    (148, 30732, "2021-03-20 00:00:00"), -- exodar-life-staff
+    (148, 30737, "2021-03-20 00:00:00"), -- gold-leaf-wildboots
+    (148, 30733, "2021-03-20 00:00:00"), -- hope-ender
+    (148, 30734, "2021-03-20 00:00:00"), -- leggings-of-the-seventh-circle
+    (148, 30736, "2021-03-20 00:00:00"), -- ring-of-flowing-light
+    (148, 30738, "2021-03-20 00:00:00"), -- ring-of-reciprocity
+    (148, 30740, "2021-03-20 00:00:00"), -- ripfiend-shoulderplates
+    (148, 30739, "2021-03-20 00:00:00"), -- scaled-greaves-of-the-marksman
+    (148, 30741, "2021-03-20 00:00:00"), -- topaz-studded-battlegrips
+
+    (149, 30725, "2021-03-20 00:00:00"), -- anger-spark-gloves
+    (149, 30726, "2021-03-20 00:00:00"), -- archaic-charm-of-presence
+    (149, 30724, "2021-03-20 00:00:00"), -- barrel-blade-longrifle
+    (149, 30729, "2021-03-20 00:00:00"), -- black-iron-battlecloak
+    (149, 30722, "2021-03-20 00:00:00"), -- ethereum-nexus-reaver
+    (149, 30731, "2021-03-20 00:00:00"), -- faceguard-of-the-endless-watch
+    (149, 30728, "2021-03-20 00:00:00"), -- fathom-helm-of-the-deeps
+    (149, 30727, "2021-03-20 00:00:00"), -- gilded-trousers-of-benediction
+    (149, 30723, "2021-03-20 00:00:00"), -- talon-of-the-tempest
+    (149, 30730, "2021-03-20 00:00:00"); -- terrorweave-tunic
