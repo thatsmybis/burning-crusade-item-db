@@ -5,17 +5,17 @@ INSERT INTO `item_sources` (`name`, `slug`, `instance_id`, `npc_id`, `object_id`
     VALUES
     -- Karazhan
     ("Trash",         "trash",         9, null,   null, 1,  "2021-02-16 00:00:00"),
-    ("Attumen",       "attumen",       9, 15550,  null, 2,  "2021-02-16 00:00:00"),
-    ("Moroes",        "moroes",        9, 15687,  null, 3,  "2021-02-16 00:00:00"),
-    ("Maiden",        "maiden",        9, 16457,  null, 4,  "2021-02-16 00:00:00"),
-    ("Opera Event",   "opera-event",   9, 16812,  null, 5,  "2021-02-16 00:00:00"),
-    ("The Curator",   "the-curator",   9, 15691,  null, 6,  "2021-02-16 00:00:00"),
-    ("Chess Event",   "chess-event",   9, null, 185119, 7,  "2021-02-16 00:00:00"),
-    ("Illhoof",       "illhoof",       9, 15688,  null, 8,  "2021-02-16 00:00:00"),
-    ("Shade of Aran", "shade-of-aran", 9, 16524,  null, 9,  "2021-02-16 00:00:00"),
-    ("Netherspite",   "netherspite",   9, 15689,  null, 10, "2021-02-16 00:00:00"),
-    ("Nightbane",     "nightbane",     9, 17225,  null, 11, "2021-02-16 00:00:00"),
-    ("Malchezaar",    "malchezaar",    9, 15690,  null, 12, "2021-02-16 00:00:00"),
+    ("Attumen",       "attumen",       9, 15550,  null, 3,  "2021-02-16 00:00:00"),
+    ("Moroes",        "moroes",        9, 15687,  null, 4,  "2021-02-16 00:00:00"),
+    ("Maiden",        "maiden",        9, 16457,  null, 5,  "2021-02-16 00:00:00"),
+    ("Opera Event",   "opera-event",   9, 16812,  null, 6,  "2021-02-16 00:00:00"),
+    ("The Curator",   "the-curator",   9, 15691,  null, 7,  "2021-02-16 00:00:00"),
+    ("Chess Event",   "chess-event",   9, null, 185119, 8,  "2021-02-16 00:00:00"),
+    ("Illhoof",       "illhoof",       9, 15688,  null, 9,  "2021-02-16 00:00:00"),
+    ("Shade of Aran", "shade-of-aran", 9, 16524,  null, 10,  "2021-02-16 00:00:00"),
+    ("Netherspite",   "netherspite",   9, 15689,  null, 11, "2021-02-16 00:00:00"),
+    ("Nightbane",     "nightbane",     9, 17225,  null, 12, "2021-02-16 00:00:00"),
+    ("Malchezaar",    "malchezaar",    9, 15690,  null, 13, "2021-02-16 00:00:00"),
     -- Gruul's Lair
     ("Maulgar", "maulgar", 10, 18831, null, 1, "2021-02-16 00:00:00"),
     ("Gruul",   "gruul",   10, 19044, null, 2, "2021-02-16 00:00:00"),
@@ -79,3 +79,7 @@ INSERT INTO `item_sources` (`name`, `slug`, `instance_id`, `npc_id`, `object_id`
     -- BC World Bosses
     ("Doom Lord Kazzak", "doom-lord-kazzak", 18, 18728, null, 1, "2021-03-20 00:00:00"),
     ("Doomwalker",       "doomwalker",       18, 17711, null, 2, "2021-03-20 00:00:00");
+
+INSERT INTO `item_sources` (`name`, `slug`, `instance_id`, `npc_id`, `object_id`, `order`, `created_at`)
+    VALUES
+    ("Servants", "servants", 9, null,   null, 2,  "2021-05-15 00:00:00");

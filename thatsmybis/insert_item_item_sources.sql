@@ -198,6 +198,7 @@ VALUES
     (97, 29766, "2021-02-16 00:00:00"), -- leggings-of-the-fallen-champion
     (97, 29767, "2021-02-16 00:00:00"), -- leggings-of-the-fallen-defender
     (97, 29765, "2021-02-16 00:00:00"), -- leggings-of-the-fallen-hero
+    (97, 28826, "2021-05-15 00:00:00"), -- shuriken-of-negation
     (97, 28822, "2021-02-16 00:00:00"), -- teeth-of-gruul
     (97, 28810, "2021-02-16 00:00:00"), -- windshear-boots
 -- Magtheridon's Lair
@@ -343,6 +344,7 @@ VALUES
     (107, 34010, "2021-02-16 00:00:00"), -- pepes-shroud-of-pacification
     -- Recipes
     (108, 32285, "2021-02-16 00:00:00"), -- design-flashing-crimson-spinel
+    (108, 32296, "2021-05-15 00:00:00"), -- design-great-lionseye
     (108, 32303, "2021-02-16 00:00:00"), -- design-inscribed-pyrestone
     (108, 32295, "2021-02-16 00:00:00"), -- design-mystic-lionseye
     (108, 32298, "2021-02-16 00:00:00"), -- design-shifting-shadowsong-amethyst
@@ -873,6 +875,7 @@ VALUES
     (146, 34216, "2021-02-16 00:00:00"), -- heroic-judicators-chestguard
     (146, 34214, "2021-02-16 00:00:00"), -- muramasa
     (146, 34213, "2021-02-16 00:00:00"), -- ring-of-hardened-resolve
+    (146, 34230, "2021-05-15 00:00:00"), -- ring-of-omnipotence
     (146, 34233, "2021-02-16 00:00:00"), -- robes-of-faltered-light
     (146, 34234, "2021-02-16 00:00:00"), -- shadowed-gauntlets-of-paroxysm
     (146, 34429, "2021-02-16 00:00:00"), -- shifting-naaru-sliver
