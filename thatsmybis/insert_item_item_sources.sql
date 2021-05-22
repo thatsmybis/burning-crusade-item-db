@@ -227,6 +227,7 @@ VALUES
 -- Serpentshrine Cavern
     -- Trash
     (99, 30027, "2021-02-16 00:00:00"), -- boots-of-courage-unending
+    (99, 30183, "2021-05-20 00:00:00"), -- nether-vortex
     (99, 30022, "2021-02-16 00:00:00"), -- pendant-of-the-perilous
     (99, 30025, "2021-02-16 00:00:00"), -- serpentshrine-shuriken
     (99, 30620, "2021-02-16 00:00:00"), -- spyglass-of-the-hidden-fleet
@@ -435,6 +436,7 @@ VALUES
     (114, 30020, "2021-02-16 00:00:00"), -- fire-cord-of-the-magus
     (114, 30030, "2021-02-16 00:00:00"), -- girdle-of-fallen-stars
     (114, 30024, "2021-02-16 00:00:00"), -- mantle-of-the-elven-kings
+    (114, 30183, "2021-05-20 00:00:00"), -- nether-vortex
     (114, 30028, "2021-02-16 00:00:00"), -- seventh-ring-of-the-tirisfalen
     -- Recipes
     (115, 30280, "2021-02-16 00:00:00"), -- pattern-belt-of-blasting
