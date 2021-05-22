@@ -1,4 +1,5 @@
 -- README! This will only work if the `items` table has `parent_id` and `parent_item_id` added to it!
+-- (these migrations: 2021_05_10_005418_add_parent_id_to_items, 2021_05_19_035051_add_parent_item_id_to_items)
 -- parent_id is equal to the DB id, and not the canonical WoW item ID
 -- parent_item_id is equal to the canonical WoW item ID
 
@@ -143,9 +144,9 @@ UPDATE `items` SET `parent_id` = 33562, `parent_item_id` = 29761 WHERE `item_id`
 UPDATE `items` SET `parent_id` = 33562, `parent_item_id` = 29761 WHERE `item_id` = 29011 AND `expansion_id` = 2; -- warbringer-greathelm
 
 -- 29759 -- helm-of-the-fallen-hero
-UPDATE `items` SET `parent_id` = 33560 , `parent_item_id` = 29759 WHERE `item_id` = 29076 AND `expansion_id` = 2; -- collar-of-the-aldor
-UPDATE `items` SET `parent_id` = 33560 , `parent_item_id` = 29759 WHERE `item_id` = 29081 AND `expansion_id` = 2; -- demon-stalker-greathelm
-UPDATE `items` SET `parent_id` = 33560 , `parent_item_id` = 29759 WHERE `item_id` = 28963 AND `expansion_id` = 2; -- voidheart-crown
+UPDATE `items` SET `parent_id` = 33560, `parent_item_id` = 29759 WHERE `item_id` = 29076 AND `expansion_id` = 2; -- collar-of-the-aldor
+UPDATE `items` SET `parent_id` = 33560, `parent_item_id` = 29759 WHERE `item_id` = 29081 AND `expansion_id` = 2; -- demon-stalker-greathelm
+UPDATE `items` SET `parent_id` = 33560, `parent_item_id` = 29759 WHERE `item_id` = 28963 AND `expansion_id` = 2; -- voidheart-crown
 
 
 -- Karazhan, The Curator (Gloves)
