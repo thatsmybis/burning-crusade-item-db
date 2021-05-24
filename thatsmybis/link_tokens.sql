@@ -8,7 +8,6 @@
 -- Head of Onyxia -------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
-
 -- 18422 -- head-of-onyxia
 UPDATE `items` SET `parent_id` = 11703, `parent_item_id` = 18422 WHERE `item_id` = 18403 AND `expansion_id` = 1; -- dragonslayers-signet
 -- UPDATE `items` SET `parent_id` = 11703, `parent_item_id` = 18422 WHERE `item_id` = 18423 AND `expansion_id` = 2; -- head-of-onyxia (deleted from DB, so... skipping)
@@ -20,7 +19,6 @@ UPDATE `items` SET `parent_id` = 11703, `parent_item_id` = 18422 WHERE `item_id`
 -- Head of Nefarian -----------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
-
 -- 19002 -- head-of-nefarian
 UPDATE `items` SET `parent_id` = 12130, `parent_item_id` = 19002 WHERE `item_id` = 19383 AND `expansion_id` = 1; -- master-dragonslayers-medallion
 -- UPDATE `items` SET `parent_id` = 12130, `parent_item_id` = 19002 WHERE `item_id` = 19003 AND `expansion_id` = 1; -- head-of-nefarian (deleted from DB, so... skipping)
@@ -32,7 +30,6 @@ UPDATE `items` SET `parent_id` = 12130, `parent_item_id` = 19002 WHERE `item_id`
 -- Eye of C'Thun --------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
-
 -- 21221 -- eye-of-cthun
 UPDATE `items` SET `parent_id` = 13654, `parent_item_id` = 21221 WHERE `item_id` = 21712 AND `expansion_id` = 1; -- amulet-of-the-fallen-god
 UPDATE `items` SET `parent_id` = 13654, `parent_item_id` = 21221 WHERE `item_id` = 21710 AND `expansion_id` = 1; -- cloak-of-the-fallen-god
@@ -40,23 +37,30 @@ UPDATE `items` SET `parent_id` = 13654, `parent_item_id` = 21221 WHERE `item_id`
 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
+-- The Phylactery of Kel'Thuzad -----------------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-- 22520 -- the-phylactery-of-kelthuzad
+UPDATE `items` SET `parent_id` = 14588, `parent_item_id` = 22520 WHERE `item_id` = 23206 AND `expansion_id` = 1; -- mark-of-the-champion
+UPDATE `items` SET `parent_id` = 14588, `parent_item_id` = 22520 WHERE `item_id` = 23207 AND `expansion_id` = 1; -- mark-of-the-champion
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 -- Magtheridon's Head ---------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
-
 -- 32385 -- magtheridons-head
-UPDATE `items` SET `parent_id` = 36744, `parent_item_id` = 32385 WHERE `item_id` = 28792 AND `expansion_id` = 2; -- adals-signet-of-defense
+UPDATE `items` SET `parent_id` = 35744, `parent_item_id` = 32385 WHERE `item_id` = 28792 AND `expansion_id` = 2; -- adals-signet-of-defense
 -- UPDATE `items` SET `parent_id` = 36744, `parent_item_id` = 32385 WHERE `item_id` = 32386 AND `expansion_id` = 2; -- magtheridons-head (deleted from DB, so... sipping)
-UPDATE `items` SET `parent_id` = 36744, `parent_item_id` = 32385 WHERE `item_id` = 28793 AND `expansion_id` = 2; -- band-of-crimson-fury
-UPDATE `items` SET `parent_id` = 36744, `parent_item_id` = 32385 WHERE `item_id` = 28790 AND `expansion_id` = 2; -- naaru-lightwardens-band
-UPDATE `items` SET `parent_id` = 36744, `parent_item_id` = 32385 WHERE `item_id` = 28791 AND `expansion_id` = 2; -- ring-of-the-recalcitrant
+UPDATE `items` SET `parent_id` = 35744, `parent_item_id` = 32385 WHERE `item_id` = 28793 AND `expansion_id` = 2; -- band-of-crimson-fury
+UPDATE `items` SET `parent_id` = 35744, `parent_item_id` = 32385 WHERE `item_id` = 28790 AND `expansion_id` = 2; -- naaru-lightwardens-band
+UPDATE `items` SET `parent_id` = 35744, `parent_item_id` = 32385 WHERE `item_id` = 28791 AND `expansion_id` = 2; -- ring-of-the-recalcitrant
 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -- Verdant Sphere -------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
-
 -- 32405 -- verdant-sphere
 UPDATE `items` SET `parent_id` = 35764, `parent_item_id` = 32405 WHERE `item_id` = 30018 AND `expansion_id` = 2; -- lord-sanguinars-claim
 UPDATE `items` SET `parent_id` = 35764, `parent_item_id` = 32405 WHERE `item_id` = 30017 AND `expansion_id` = 2; -- telonicuss-pendant-of-mayhem
@@ -65,28 +69,28 @@ UPDATE `items` SET `parent_id` = 35764, `parent_item_id` = 32405 WHERE `item_id`
 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
--- Zul'Gurub ------------------------------------------------------------------
+-- Zul'Gurub Tokens -----------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 
 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
--- Ruins of Ahn'Qiraj ---------------------------------------------------------
+-- Ruins of Ahn'Qiraj Tokens --------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 
 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
--- Temple of Ahn'Qiraj --------------------------------------------------------
+-- Temple of Ahn'Qiraj Tokens -------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 
 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
--- Naxxramas ------------------------------------------------------------------
+-- Naxxramas Tokens -----------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 
@@ -96,26 +100,26 @@ UPDATE `items` SET `parent_id` = 35764, `parent_item_id` = 32405 WHERE `item_id`
 -- Nether Vortex --------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 47050 AND `expansion_id` = 2; -- assassins-alchemist-stone
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 36315 AND `expansion_id` = 2; -- belt-of-blasting
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 36351 AND `expansion_id` = 2; -- belt-of-deep-shadow
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 36349 AND `expansion_id` = 2; -- belt-of-natural-power
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 36352 AND `expansion_id` = 2; -- belt-of-the-black-eagle
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 36389 AND `expansion_id` = 2; -- belt-of-the-guardian
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 36316 AND `expansion_id` = 2; -- belt-of-the-long-road
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 36258 AND `expansion_id` = 2; -- blazefury
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 36261 AND `expansion_id` = 2; -- bloodmoon
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 36257 AND `expansion_id` = 2; -- bulwark-of-the-ancient-kings
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 36262 AND `expansion_id` = 2; -- dragonstrike
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 36256 AND `expansion_id` = 2; -- embrace-of-the-twisting-nether
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 47046 AND `expansion_id` = 2; -- guardians-alchemist-stone
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 36259 AND `expansion_id` = 2; -- lionheart-executioner
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 36353 AND `expansion_id` = 2; -- monsoon-belt
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 36390 AND `expansion_id` = 2; -- red-belt-of-battle
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 47049 AND `expansion_id` = 2; -- redeemers-alchemist-stone
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 47048 AND `expansion_id` = 2; -- sorcerers-alchemist-stone
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 36263 AND `expansion_id` = 2; -- stormherald
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 36260 AND `expansion_id` = 2; -- wicked-edge-of-the-planes
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 35751 AND `expansion_id` = 2; -- assassins-alchemist-stone
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 30038 AND `expansion_id` = 2; -- belt-of-blasting
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 30040 AND `expansion_id` = 2; -- belt-of-deep-shadow
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 30042 AND `expansion_id` = 2; -- belt-of-natural-power
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 30046 AND `expansion_id` = 2; -- belt-of-the-black-eagle
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 30034 AND `expansion_id` = 2; -- belt-of-the-guardian
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 30036 AND `expansion_id` = 2; -- belt-of-the-long-road
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 28427 AND `expansion_id` = 2; -- blazefury
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 28436 AND `expansion_id` = 2; -- bloodmoon
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 28485 AND `expansion_id` = 2; -- bulwark-of-the-ancient-kings
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 28439 AND `expansion_id` = 2; -- dragonstrike
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 23565 AND `expansion_id` = 2; -- embrace-of-the-twisting-nether
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 35748 AND `expansion_id` = 2; -- guardians-alchemist-stone
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 28430 AND `expansion_id` = 2; -- lionheart-executioner
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 30044 AND `expansion_id` = 2; -- monsoon-belt
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 30032 AND `expansion_id` = 2; -- red-belt-of-battle
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 35750 AND `expansion_id` = 2; -- redeemers-alchemist-stone
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 35749 AND `expansion_id` = 2; -- sorcerers-alchemist-stone
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 28442 AND `expansion_id` = 2; -- stormherald
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 28433 AND `expansion_id` = 2; -- wicked-edge-of-the-planes
 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
@@ -170,9 +174,9 @@ UPDATE `items` SET `parent_id` = 33559, `parent_item_id` = 29758 WHERE `item_id`
 UPDATE `items` SET `parent_id` = 33559, `parent_item_id` = 29758 WHERE `item_id` = 29017 AND `expansion_id` = 2; -- warbringer-handguards
 
 -- 29756 -- gloves-of-the-fallen-hero
-UPDATE `items` SET `parent_id` = 33560, `parent_item_id` = 29756 WHERE `item_id` = 29085 AND `expansion_id` = 2; -- demon-stalker-gauntlets
-UPDATE `items` SET `parent_id` = 33560, `parent_item_id` = 29756 WHERE `item_id` = 29080 AND `expansion_id` = 2; -- gloves-of-the-aldor
-UPDATE `items` SET `parent_id` = 33560, `parent_item_id` = 29756 WHERE `item_id` = 28968 AND `expansion_id` = 2; -- voidheart-gloves
+UPDATE `items` SET `parent_id` = 33557, `parent_item_id` = 29756 WHERE `item_id` = 29085 AND `expansion_id` = 2; -- demon-stalker-gauntlets
+UPDATE `items` SET `parent_id` = 33557, `parent_item_id` = 29756 WHERE `item_id` = 29080 AND `expansion_id` = 2; -- gloves-of-the-aldor
+UPDATE `items` SET `parent_id` = 33557, `parent_item_id` = 29756 WHERE `item_id` = 28968 AND `expansion_id` = 2; -- voidheart-gloves
 
 
 -- Gruul's Lair, Gruul the Dragonkiller (Pants)
