@@ -136,6 +136,7 @@ UPDATE `items` SET `parent_id` = 13511, `parent_item_id` = 20933 WHERE `item_id`
 UPDATE `items` SET `parent_id` = 13511, `parent_item_id` = 20933 WHERE `item_id` = 21357 AND `expansion_id` = 1; -- genesis-vest
 UPDATE `items` SET `parent_id` = 13511, `parent_item_id` = 20933 WHERE `item_id` = 21351 AND `expansion_id` = 1; -- vestments-of-the-oracle
 
+UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (18403,18406,18404,19383,19366,19384,19948,19950,19949,19827,19846,19833,19830,19836,19824,19843,19848,19840,19829,19835,19823,19842,19849,19839,19826,19845,19832,19828,19825,19838,20033,20034,19822,19841,19834,19831,21408,21414,21396,21399,21393,21406,21394,21415,21412,21395,21404,21398,21401,21392,21405,21411,21417,21402,21397,21400,21403,21409,21418,21413,21410,21416,21407,21329,21337,21347,21348,21332,21362,21346,21352,21333,21330,21359,21361,21349,21350,21365,21367,21389,21331,21364,21374,21370,21387,21360,21353,21372,21366,21390,21336,21356,21375,21368,21388,21391,21338,21335,21344,21345,21355,21354,21373,21376,21334,21343,21357,21351);
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -- Head of Ossirian the Unscarred ---------------------------------------------
@@ -234,6 +235,7 @@ UPDATE `items` SET `parent_id` = 14702, `parent_item_id` = 22726 WHERE `item_id`
 UPDATE `items` SET `parent_id` = 14702, `parent_item_id` = 22726 WHERE `item_id` = 22631 AND `expansion_id` = 1; -- atiesh-greatstaff-of-the-guardian, splinter-of-atiesh
 UPDATE `items` SET `parent_id` = 14702, `parent_item_id` = 22726 WHERE `item_id` = 22630 AND `expansion_id` = 1; -- atiesh-greatstaff-of-the-guardian, splinter-of-atiesh
 
+UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (21504,21507,21505,21506,21712,21710,21709,22477,22417,22478,22418,22479,22419,22483,22423,22482,22422,22481,22421,22480,22420,22437,22489,22465,22427,22438,22490,22466,22428,22439,22491,22467,22429,22443,22495,22471,22424,22442,22494,22470,22431,22441,22493,22469,22426,22440,22492,22468,22430,22497,22513,22505,22514,22498,22506,22499,22507,22515,22519,22503,22511,22518,22502,22510,22501,22517,22509,22500,22508,22516,22476,22416,22496,22504,22512,22436,22488,22464,22425,22632,22589,22631,22630);
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -- The Phylactery of Kel'Thuzad -----------------------------------------------
@@ -320,6 +322,7 @@ UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id`
 UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 28442 AND `expansion_id` = 2; -- stormherald
 UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 28433 AND `expansion_id` = 2; -- wicked-edge-of-the-planes
 
+UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (23206,23207,28792,28793,28790,28791,30018,30017,30007,30015,35751,30038,30040,30042,30046,30034,30036,28427,28436,28485,28439,23565,35748,28430,30044,30032,35750,35749,28442,28433);
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -- T4 tokens ------------------------------------------------------------------
@@ -454,6 +457,8 @@ UPDATE `items` SET `parent_id` = 33556, `parent_item_id` = 29755 WHERE `item_id`
 UPDATE `items` SET `parent_id` = 33556, `parent_item_id` = 29755 WHERE `item_id` = 29077 AND `expansion_id` = 2; -- vestments-of-the-aldor
 UPDATE `items` SET `parent_id` = 33556, `parent_item_id` = 29755 WHERE `item_id` = 28964 AND `expansion_id` = 2; -- voidheart-robe
 
+UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (29035,29028,29040,29073,29061,29068,29044,29093,29086,29049,29058,29098,29021,29011,29076,29081,28963,29039,29032,29034,29072,29065,29067,29048,29097,29092,29057,29090,29055,29020,29017,29085,29080,28968,29030,29036,29042,29074,29063,29069,29046,29094,29099,29059,29088,29053,29022,29015,29083,29078,28966,29037,29031,29043,29064,29070,29075,29047,29054,29100,29095,29089,29060,29023,29016,29084,29079,28967,29038,29033,29029,29066,29062,29071,29045,29096,29087,29091,29050,29056,29019,29012,29082,29077,28964);
+
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -- T5 tokens ------------------------------------------------------------------
@@ -584,6 +589,8 @@ UPDATE `items` SET `parent_id` = 33942, `parent_item_id` = 30248 WHERE `item_id`
 UPDATE `items` SET `parent_id` = 33942, `parent_item_id` = 30248 WHERE `item_id` = 30168 AND `expansion_id` = 2; -- cataclysm-shoulderguards
 UPDATE `items` SET `parent_id` = 33942, `parent_item_id` = 30248 WHERE `item_id` = 30173 AND `expansion_id` = 2; -- cataclysm-shoulderpads
 UPDATE `items` SET `parent_id` = 33942, `parent_item_id` = 30248 WHERE `item_id` = 30194 AND `expansion_id` = 2; -- cataclysm-shoulderplates
+
+UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (30120,30115,30152,30161,30228,30219,30233,30141,30206,30212,30125,30136,30131,30146,30166,30171,30190,30119,30114,30151,30160,30232,30217,30223,30140,30205,30211,30130,30135,30124,30145,30189,30165,30170,30121,30116,30153,30162,30229,30220,30234,30142,30207,30213,30132,30137,30126,30148,30172,30167,30192,30118,30113,30159,30150,30216,30231,30222,30139,30196,30214,30129,30123,30134,30144,30164,30169,30185,30122,30117,30154,30163,30230,30221,30235,30143,30210,30215,30138,30133,30127,30149,30168,30173,30194);
 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
@@ -790,3 +797,102 @@ UPDATE `items` SET `parent_id` = 34664, `parent_item_id` = 31102 WHERE `item_id`
 UPDATE `items` SET `parent_id` = 34664, `parent_item_id` = 31102 WHERE `item_id` = 31048 AND `expansion_id` = 2;  -- thunderheart-pauldrons
 UPDATE `items` SET `parent_id` = 34664, `parent_item_id` = 31102 WHERE `item_id` = 31049 AND `expansion_id` = 2;  -- thunderheart-shoulderpads
 UPDATE `items` SET `parent_id` = 34664, `parent_item_id` = 31102 WHERE `item_id` = 31047 AND `expansion_id` = 2;  -- thunderheart-spaulders
+
+
+UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (34527,34541,34528,34487,34485,34488,34549,34546,34547,34543,34542,34545,34557,34558,34554,34555,34556,34562,34564,34561,34560,34559,34563,34570,34546,34547,34565,34567,34566,34574,34575,34571,34572,34573,34434,34436,34435,34431,34432,34433,34443,34441,34442,34437,34438,34439,34447,34448,34446,34445,34444,30990,30991,30992,31052,31065,31066,31004,30975,30976,31017,31016,31018,31057,31028,31042,31041,31043,31060,31050,31061,30982,30983,30985,31001,30969,30970,31008,31007,31011,31055,31026,31034,31032,31035,31063,31064,31051,30987,30988,30989,31003,30972,30974,31015,31014,31012,31056,31027,31039,31040,31037,34527,34541,34528,34487,34485,34488,34549,34546,34547,34543,34542,34545,34557,34558,34554,34555,34556,30996,30997,30998,31069,31054,31070,31006,30979,30980,31023,31024,31022,31059,31030,31048,31049,31047);
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-- Recipes --------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+-- SSC Recipes
+-----
+UPDATE `items` SET `parent_id` = 33973, `parent_item_id` = 30280 WHERE `item_id` = 30038 AND `expansion_id` = 2; -- belt-of-blasting
+UPDATE `items` SET `parent_id` = 33991, `parent_item_id` = 30302 WHERE `item_id` = 30040 AND `expansion_id` = 2; -- belt-of-deep-shadow
+UPDATE `items` SET `parent_id` = 33990, `parent_item_id` = 30301 WHERE `item_id` = 30042 AND `expansion_id` = 2; -- belt-of-natural-power
+UPDATE `items` SET `parent_id` = 33992, `parent_item_id` = 30303 WHERE `item_id` = 30046 AND `expansion_id` = 2; -- belt-of-the-black-eagle
+UPDATE `items` SET `parent_id` = 33974, `parent_item_id` = 30281 WHERE `item_id` = 30036 AND `expansion_id` = 2; -- belt-of-the-long-road
+UPDATE `items` SET `parent_id` = 33975, `parent_item_id` = 30282 WHERE `item_id` = 30037 AND `expansion_id` = 2; -- boots-of-blasting
+UPDATE `items` SET `parent_id` = 33994, `parent_item_id` = 30305 WHERE `item_id` = 30041 AND `expansion_id` = 2; -- boots-of-natural-grace
+UPDATE `items` SET `parent_id` = 33996, `parent_item_id` = 30307 WHERE `item_id` = 30045 AND `expansion_id` = 2; -- boots-of-the-crimson-hawk
+UPDATE `items` SET `parent_id` = 33976, `parent_item_id` = 30283 WHERE `item_id` = 30035 AND `expansion_id` = 2; -- boots-of-the-long-road
+UPDATE `items` SET `parent_id` = 33995, `parent_item_id` = 30306 WHERE `item_id` = 30039 AND `expansion_id` = 2; -- boots-of-utter-darkness
+UPDATE `items` SET `parent_id` = 33997, `parent_item_id` = 30308 WHERE `item_id` = 30043 AND `expansion_id` = 2; -- hurricane-boots
+UPDATE `items` SET `parent_id` = 33993, `parent_item_id` = 30304 WHERE `item_id` = 30044 AND `expansion_id` = 2; -- monsoon-belt
+UPDATE `items` SET `parent_id` = 34009, `parent_item_id` = 30321 WHERE `item_id` = 30034 AND `expansion_id` = 2; -- belt-of-the-guardian
+UPDATE `items` SET `parent_id` = 34011, `parent_item_id` = 30323 WHERE `item_id` = 30033 AND `expansion_id` = 2; -- boots-of-the-protector
+UPDATE `items` SET `parent_id` = 34010, `parent_item_id` = 30322 WHERE `item_id` = 30032 AND `expansion_id` = 2; -- red-belt-of-battle
+UPDATE `items` SET `parent_id` = 34012, `parent_item_id` = 30324 WHERE `item_id` = 30031 AND `expansion_id` = 2; -- red-havoc-boots
+
+-- Hyjal Recipes
+-----
+UPDATE `items` SET `parent_id` = 36029, `parent_item_id` = 32748 WHERE `item_id` = 32574 AND `expansion_id` = 2; -- bindings-of-lightning-reflexes
+UPDATE `items` SET `parent_id` = 36032, `parent_item_id` = 32751 WHERE `item_id` = 32579 AND `expansion_id` = 2; -- living-earth-shoulders
+UPDATE `items` SET `parent_id` = 36036, `parent_item_id` = 32755 WHERE `item_id` = 32587 AND `expansion_id` = 2; -- mantle-of-nimble-thought
+UPDATE `items` SET `parent_id` = 36026, `parent_item_id` = 32745 WHERE `item_id` = 32583 AND `expansion_id` = 2; -- shoulderpads-of-renewed-life
+UPDATE `items` SET `parent_id` = 36033, `parent_item_id` = 32752 WHERE `item_id` = 32584 AND `expansion_id` = 2; -- swiftheal-wraps
+UPDATE `items` SET `parent_id` = 36027, `parent_item_id` = 32746 WHERE `item_id` = 32580 AND `expansion_id` = 2; -- swiftstrike-bracers
+UPDATE `items` SET `parent_id` = 36022, `parent_item_id` = 32739 WHERE `item_id` = 32573 AND `expansion_id` = 2; -- dawnsteel-shoulders
+UPDATE `items` SET `parent_id` = 29652, `parent_item_id` = 23631 WHERE `item_id` = 23542 AND `expansion_id` = 2; -- fel-edged-battleaxe
+UPDATE `items` SET `parent_id` = 36019, `parent_item_id` = 32736 WHERE `item_id` = 32568 AND `expansion_id` = 2; -- swiftsteel-bracers
+
+-- TK Recipes
+-----
+-- duplicates of SSC
+-- UPDATE `items` SET `parent_id` = xxx, `parent_item_id` = 30280 WHERE `item_id` = 30038 AND `expansion_id` = 2; -- belt-of-blasting
+-- UPDATE `items` SET `parent_id` = xxx, `parent_item_id` = 30302 WHERE `item_id` = 30040 AND `expansion_id` = 2; -- belt-of-deep-shadow
+-- UPDATE `items` SET `parent_id` = xxx, `parent_item_id` = 30301 WHERE `item_id` = 30042 AND `expansion_id` = 2; -- belt-of-natural-power
+-- UPDATE `items` SET `parent_id` = xxx, `parent_item_id` = 30303 WHERE `item_id` = 30046 AND `expansion_id` = 2; -- belt-of-the-black-eagle
+-- UPDATE `items` SET `parent_id` = xxx, `parent_item_id` = 30281 WHERE `item_id` = 30036 AND `expansion_id` = 2; -- belt-of-the-long-road
+-- UPDATE `items` SET `parent_id` = xxx, `parent_item_id` = 30282 WHERE `item_id` = 30037 AND `expansion_id` = 2; -- boots-of-blasting
+-- UPDATE `items` SET `parent_id` = xxx, `parent_item_id` = 30305 WHERE `item_id` = 30041 AND `expansion_id` = 2; -- boots-of-natural-grace
+-- UPDATE `items` SET `parent_id` = xxx, `parent_item_id` = 30307 WHERE `item_id` = 30045 AND `expansion_id` = 2; -- boots-of-the-crimson-hawk
+-- UPDATE `items` SET `parent_id` = xxx, `parent_item_id` = 30283 WHERE `item_id` = 30035 AND `expansion_id` = 2; -- boots-of-the-long-road
+-- UPDATE `items` SET `parent_id` = xxx, `parent_item_id` = 30306 WHERE `item_id` = 30039 AND `expansion_id` = 2; -- boots-of-utter-darkness
+-- UPDATE `items` SET `parent_id` = xxx, `parent_item_id` = 30308 WHERE `item_id` = 30043 AND `expansion_id` = 2; -- hurricane-boots
+-- UPDATE `items` SET `parent_id` = xxx, `parent_item_id` = 30304 WHERE `item_id` = 30044 AND `expansion_id` = 2; -- monsoon-belt
+-- UPDATE `items` SET `parent_id` = xxx, `parent_item_id` = 30321 WHERE `item_id` = 30034 AND `expansion_id` = 2; -- belt-of-the-guardian
+-- UPDATE `items` SET `parent_id` = xxx, `parent_item_id` = 30323 WHERE `item_id` = 30033 AND `expansion_id` = 2; -- boots-of-the-protector
+-- UPDATE `items` SET `parent_id` = xxx, `parent_item_id` = 30322 WHERE `item_id` = 30032 AND `expansion_id` = 2; -- red-belt-of-battle
+-- UPDATE `items` SET `parent_id` = xxx, `parent_item_id` = 30324 WHERE `item_id` = 30031 AND `expansion_id` = 2; -- red-havoc-boots
+
+-- BT Recipes
+-----
+UPDATE `items` SET `parent_id` = 36035, `parent_item_id` = 32754 WHERE `item_id` = 32586 AND `expansion_id` = 2; -- bracers-of-nimble-thought
+UPDATE `items` SET `parent_id` = 36025, `parent_item_id` = 32744 WHERE `item_id` = 32582 AND `expansion_id` = 2; -- bracers-of-renewed-life
+UPDATE `items` SET `parent_id` = 36031, `parent_item_id` = 32750 WHERE `item_id` = 32577 AND `expansion_id` = 2; -- living-earth-bindings
+UPDATE `items` SET `parent_id` = 36030, `parent_item_id` = 32749 WHERE `item_id` = 32575 AND `expansion_id` = 2; -- shoulders-of-lightning-reflexes
+UPDATE `items` SET `parent_id` = 36034, `parent_item_id` = 32753 WHERE `item_id` = 32585 AND `expansion_id` = 2; -- swiftheal-mantle
+UPDATE `items` SET `parent_id` = 36028, `parent_item_id` = 32747 WHERE `item_id` = 32581 AND `expansion_id` = 2; -- swiftstrike-shoulders
+UPDATE `items` SET `parent_id` = 36021, `parent_item_id` = 32738 WHERE `item_id` = 32571 AND `expansion_id` = 2; -- dawnsteel-bracers
+UPDATE `items` SET `parent_id` = 36020, `parent_item_id` = 32737 WHERE `item_id` = 32570 AND `expansion_id` = 2; -- swiftsteel-shoulders
+
+-- Sunwell Recipes
+-----
+UPDATE `items` SET `parent_id` = 37507, `parent_item_id` = 35218 WHERE `item_id` = 34369 AND `expansion_id` = 2; -- carapace-of-sun-and-shadow      / pattern-carapace-of-sun-and-shadow
+UPDATE `items` SET `parent_id` = 37506, `parent_item_id` = 35217 WHERE `item_id` = 34373 AND `expansion_id` = 2; -- embrace-of-the-phoenix          / pattern-embrace-of-the-phoenix
+UPDATE `items` SET `parent_id` = 37503, `parent_item_id` = 35213 WHERE `item_id` = 34374 AND `expansion_id` = 2; -- fletchers-gloves-of-the-phoenix / pattern-fletchers-gloves-of-the-phoenix
+UPDATE `items` SET `parent_id` = 37914, `parent_item_id` = 35214 WHERE `item_id` = 34370 AND `expansion_id` = 2; -- gloves-of-immortal-dusk         / pattern-gloves-of-immortal-dusk
+UPDATE `items` SET `parent_id` = 37915, `parent_item_id` = 35205 WHERE `item_id` = 34367 AND `expansion_id` = 2; -- hands-of-eternal-light          / pattern-hands-of-eternal-light
+UPDATE `items` SET `parent_id` = 37505, `parent_item_id` = 35216 WHERE `item_id` = 34371 AND `expansion_id` = 2; -- leather-chestguard-of-the-sun   / pattern-leather-chestguard-of-the-sun
+UPDATE `items` SET `parent_id` = 37502, `parent_item_id` = 35212 WHERE `item_id` = 34372 AND `expansion_id` = 2; -- leather-gauntlets-of-the-sun    / pattern-leather-gauntlets-of-the-sun
+UPDATE `items` SET `parent_id` = 37497, `parent_item_id` = 35207 WHERE `item_id` = 34365 AND `expansion_id` = 2; -- robe-of-eternal-light           / pattern-robe-of-eternal-light
+UPDATE `items` SET `parent_id` = 37508, `parent_item_id` = 35219 WHERE `item_id` = 34375 AND `expansion_id` = 2; -- sun-drenched-scale-chestguard   / pattern-sun-drenched-scale-chestguard
+UPDATE `items` SET `parent_id` = 37504, `parent_item_id` = 35215 WHERE `item_id` = 34376 AND `expansion_id` = 2; -- sun-drenched-scale-gloves       / pattern-sun-drenched-scale-gloves
+UPDATE `items` SET `parent_id` = 37495, `parent_item_id` = 35204 WHERE `item_id` = 34366 AND `expansion_id` = 2; -- sunfire-handwraps               / pattern-sunfire-handwraps
+UPDATE `items` SET `parent_id` = 37496, `parent_item_id` = 35206 WHERE `item_id` = 34364 AND `expansion_id` = 2; -- sunfire-robe                    / pattern-sunfire-robe
+UPDATE `items` SET `parent_id` = 37499, `parent_item_id` = 35209 WHERE `item_id` = 34378 AND `expansion_id` = 2; -- hard-khorium-battlefists        / plans-hard-khorium-battlefists
+UPDATE `items` SET `parent_id` = 37501, `parent_item_id` = 35211 WHERE `item_id` = 34377 AND `expansion_id` = 2; -- hard-khorium-battleplate        / plans-hard-khorium-battleplate
+UPDATE `items` SET `parent_id` = 37500, `parent_item_id` = 35210 WHERE `item_id` = 34379 AND `expansion_id` = 2; -- sunblessed-breastplate          / plans-sunblessed-breastplate
+UPDATE `items` SET `parent_id` = 37498, `parent_item_id` = 35208 WHERE `item_id` = 34380 AND `expansion_id` = 2; -- sunblessed-gauntlets            / plans-sunblessed-gauntlets
+UPDATE `items` SET `parent_id` = 37478, `parent_item_id` = 35186 WHERE `item_id` = 34847 AND `expansion_id` = 2; -- annihilator-holo-gogs           / schematic-annihilator-holo-gogs
+UPDATE `items` SET `parent_id` = 37487, `parent_item_id` = 35196 WHERE `item_id` = 34357 AND `expansion_id` = 2; -- hard-khorium-goggles            / schematic-hard-khorium-goggles
+UPDATE `items` SET `parent_id` = 37481, `parent_item_id` = 35190 WHERE `item_id` = 35182 AND `expansion_id` = 2; -- hyper-magnified-moon-specs      / schematic-hyper-magnified-moon-specs
+UPDATE `items` SET `parent_id` = 37484, `parent_item_id` = 35193 WHERE `item_id` = 34355 AND `expansion_id` = 2; -- lightning-etched-specs          / schematic-lightning-etched-specs
+UPDATE `items` SET `parent_id` = 37486, `parent_item_id` = 35195 WHERE `item_id` = 34354 AND `expansion_id` = 2; -- mayhem-projection-goggles       / schematic-mayhem-projection-goggles
+UPDATE `items` SET `parent_id` = 37480, `parent_item_id` = 35189 WHERE `item_id` = 35181 AND `expansion_id` = 2; -- powerheal-9000-lens             / schematic-powerheal-9000-lens
+UPDATE `items` SET `parent_id` = 37483, `parent_item_id` = 35192 WHERE `item_id` = 35184 AND `expansion_id` = 2; -- primal-attuned-goggles          / schematic-primal-attuned-goggles
+UPDATE `items` SET `parent_id` = 37485, `parent_item_id` = 35194 WHERE `item_id` = 34356 AND `expansion_id` = 2; -- surestrike-goggles-v3-0         / schematic-surestrike-goggles-v30
+
+UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (30038,30040,30042,30046,30036,30037,30041,30045,30035,30039,30043,30044,30034,30033,30032,30031,32574,32579,32587,32583,32584,32580,32573,23542,32568,32586,32582,32577,32575,32585,32581,32571,32570,34369,34373,34374,34370,34367,34371,34372,34365,34375,34376,34366,34364,34378,34377,34379,34380,34847,34357,35182,34355,34354,35181,35184,34356);
