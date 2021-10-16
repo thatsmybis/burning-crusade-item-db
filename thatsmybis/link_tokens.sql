@@ -322,7 +322,8 @@ UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id`
 UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 28442 AND `expansion_id` = 2; -- stormherald
 UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 28433 AND `expansion_id` = 2; -- wicked-edge-of-the-planes
 
-UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (23206,23207,28792,28793,28790,28791,30018,30017,30007,30015,35751,30038,30040,30042,30046,30034,30036,28427,28436,28485,28439,23565,35748,28430,30044,30032,35750,35749,28442,28433);
+UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (23206,23207,28792,28793,28790,28791,30018,30017,30007,30015,35751,30038,30040,30042,30046,30034,30036,28427,28436,28485,28439,23565,35748,28430,30044,30032,35750,35749,28442,28433,30280,30302,30301,30303,30321,30281,30304,30322);
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` IN (30280,30302,30301,30303,30321,30281,30304,30322) AND `expansion_id` = 2;
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -- T4 tokens ------------------------------------------------------------------
@@ -797,6 +798,39 @@ UPDATE `items` SET `parent_id` = 34664, `parent_item_id` = 31102 WHERE `item_id`
 UPDATE `items` SET `parent_id` = 34664, `parent_item_id` = 31102 WHERE `item_id` = 31048 AND `expansion_id` = 2;  -- thunderheart-pauldrons
 UPDATE `items` SET `parent_id` = 34664, `parent_item_id` = 31102 WHERE `item_id` = 31049 AND `expansion_id` = 2;  -- thunderheart-shoulderpads
 UPDATE `items` SET `parent_id` = 34664, `parent_item_id` = 31102 WHERE `item_id` = 31047 AND `expansion_id` = 2;  -- thunderheart-spaulders
+
+
+-- Legs
+
+-- leggings-of-the-forgotten-conqueror
+UPDATE `items` SET `parent_id` = 34660, `parent_item_id` = 31098 WHERE `item_id` = 30995 AND `expansion_id` = 2; -- Lightbringer Legguards
+UPDATE `items` SET `parent_id` = 34660, `parent_item_id` = 31098 WHERE `item_id` = 30993 AND `expansion_id` = 2; -- Lightbringer Greaves
+UPDATE `items` SET `parent_id` = 34660, `parent_item_id` = 31098 WHERE `item_id` = 30994 AND `expansion_id` = 2; -- Lightbringer Leggings
+UPDATE `items` SET `parent_id` = 34660, `parent_item_id` = 31098 WHERE `item_id` = 31067 AND `expansion_id` = 2; -- Leggings of Absolution
+UPDATE `items` SET `parent_id` = 34660, `parent_item_id` = 31098 WHERE `item_id` = 31068 AND `expansion_id` = 2; -- Breeches of Absolution
+UPDATE `items` SET `parent_id` = 34660, `parent_item_id` = 31098 WHERE `item_id` = 31053 AND `expansion_id` = 2; -- Leggings of the Malefic
+
+-- leggings-of-the-forgotten-vanquisher
+UPDATE `items` SET `parent_id` = 34661, `parent_item_id` = 31099 WHERE `item_id` = 31044 AND `expansion_id` = 2; -- Thunderheart Leggings
+UPDATE `items` SET `parent_id` = 34661, `parent_item_id` = 31099 WHERE `item_id` = 31045 AND `expansion_id` = 2; -- Thunderheart Legguards
+UPDATE `items` SET `parent_id` = 34661, `parent_item_id` = 31099 WHERE `item_id` = 31046 AND `expansion_id` = 2; -- Thunderheart Pants
+UPDATE `items` SET `parent_id` = 34661, `parent_item_id` = 31099 WHERE `item_id` = 31058 AND `expansion_id` = 2; -- Leggings of the Tempest
+UPDATE `items` SET `parent_id` = 34661, `parent_item_id` = 31099 WHERE `item_id` = 31029 AND `expansion_id` = 2; -- Slayer's Legguards
+
+-- leggings-of-the-forgotten-protector
+UPDATE `items` SET `parent_id` = 34662, `parent_item_id` = 31100 WHERE `item_id` = 31005 AND `expansion_id` = 2; -- Gronnstalker's Leggings
+UPDATE `items` SET `parent_id` = 34662, `parent_item_id` = 31100 WHERE `item_id` = 31021 AND `expansion_id` = 2; -- Skyshatter Pants
+UPDATE `items` SET `parent_id` = 34662, `parent_item_id` = 31100 WHERE `item_id` = 31019 AND `expansion_id` = 2; -- Skyshatter Leggings
+UPDATE `items` SET `parent_id` = 34662, `parent_item_id` = 31100 WHERE `item_id` = 31020 AND `expansion_id` = 2; -- Skyshatter Legguards
+UPDATE `items` SET `parent_id` = 34662, `parent_item_id` = 31100 WHERE `item_id` = 30978 AND `expansion_id` = 2; -- Onslaught Legguards
+UPDATE `items` SET `parent_id` = 34662, `parent_item_id` = 31100 WHERE `item_id` = 30977 AND `expansion_id` = 2; -- Onslaught Greaves
+
+
+
+
+
+
+
 
 
 UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (34527,34541,34528,34487,34485,34488,34549,34546,34547,34543,34542,34545,34557,34558,34554,34555,34556,34562,34564,34561,34560,34559,34563,34570,34546,34547,34565,34567,34566,34574,34575,34571,34572,34573,34434,34436,34435,34431,34432,34433,34443,34441,34442,34437,34438,34439,34447,34448,34446,34445,34444,30990,30991,30992,31052,31065,31066,31004,30975,30976,31017,31016,31018,31057,31028,31042,31041,31043,31060,31050,31061,30982,30983,30985,31001,30969,30970,31008,31007,31011,31055,31026,31034,31032,31035,31063,31064,31051,30987,30988,30989,31003,30972,30974,31015,31014,31012,31056,31027,31039,31040,31037,34527,34541,34528,34487,34485,34488,34549,34546,34547,34543,34542,34545,34557,34558,34554,34555,34556,30996,30997,30998,31069,31054,31070,31006,30979,30980,31023,31024,31022,31059,31030,31048,31049,31047);
