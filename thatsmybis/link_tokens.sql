@@ -322,8 +322,7 @@ UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id`
 UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 28442 AND `expansion_id` = 2; -- stormherald
 UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` = 28433 AND `expansion_id` = 2; -- wicked-edge-of-the-planes
 
-UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (23206,23207,28792,28793,28790,28791,30018,30017,30007,30015,35751,30038,30040,30042,30046,30034,30036,28427,28436,28485,28439,23565,35748,28430,30044,30032,35750,35749,28442,28433,30280,30302,30301,30303,30321,30281,30304,30322);
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` IN (30280,30302,30301,30303,30321,30281,30304,30322) AND `expansion_id` = 2;
+UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (23206,23207,28792,28793,28790,28791,30018,30017,30007,30015,35751,30038,30040,30042,30046,30034,30036,28427,28436,28485,28439,23565,35748,28430,30044,30032,35750,35749,28442,28433);
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -- T4 tokens ------------------------------------------------------------------
@@ -835,6 +834,7 @@ UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (34527,34541,34528,34487,34
 
 -- SSC Recipes
 -----
+UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` IN (30280,30302,30301,30303,30321,30281,30304,30322) AND `expansion_id` = 2;
 UPDATE `items` SET `parent_id` = 33973, `parent_item_id` = 30280 WHERE `item_id` = 30038 AND `expansion_id` = 2; -- belt-of-blasting
 UPDATE `items` SET `parent_id` = 33991, `parent_item_id` = 30302 WHERE `item_id` = 30040 AND `expansion_id` = 2; -- belt-of-deep-shadow
 UPDATE `items` SET `parent_id` = 33990, `parent_item_id` = 30301 WHERE `item_id` = 30042 AND `expansion_id` = 2; -- belt-of-natural-power
