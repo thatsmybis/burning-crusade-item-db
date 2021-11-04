@@ -834,7 +834,7 @@ UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (34527,34541,34528,34487,34
 
 -- SSC Recipes
 -----
-UPDATE `items` SET `parent_id` = 33888, `parent_item_id` = 30183 WHERE `item_id` IN (30280,30302,30301,30303,30321,30281,30304,30322) AND `expansion_id` = 2;
+UPDATE `items` SET `parent_id` = null, `parent_item_id` = null WHERE `item_id` IN (30280,30302,30301,30303,30321,30281,30304,30322) AND `expansion_id` = 2;
 UPDATE `items` SET `parent_id` = 33973, `parent_item_id` = 30280 WHERE `item_id` = 30038 AND `expansion_id` = 2; -- belt-of-blasting
 UPDATE `items` SET `parent_id` = 33991, `parent_item_id` = 30302 WHERE `item_id` = 30040 AND `expansion_id` = 2; -- belt-of-deep-shadow
 UPDATE `items` SET `parent_id` = 33990, `parent_item_id` = 30301 WHERE `item_id` = 30042 AND `expansion_id` = 2; -- belt-of-natural-power
