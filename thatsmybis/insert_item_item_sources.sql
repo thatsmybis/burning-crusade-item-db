@@ -359,7 +359,8 @@ VALUES
     (108, 32752, "2021-02-16 00:00:00"), -- pattern-swiftheal-wraps
     (108, 32746, "2021-02-16 00:00:00"), -- pattern-swiftstrike-bracers
     (108, 32739, "2021-02-16 00:00:00"), -- plans-dawnsteel-shoulders
-    (108, 23631, "2021-02-16 00:00:00"), -- plans-fel-edged-battleaxe
+    -- actually; it's a world drop
+    -- (108, 23631, "2021-02-16 00:00:00"), -- plans-fel-edged-battleaxe
     (108, 32736, "2021-02-16 00:00:00"), -- plans-swiftsteel-bracers
     -- Rage Winterchill
     (109, 30862, "2021-02-16 00:00:00"), -- blessed-adamantite-bracers

@@ -900,3 +900,6 @@ VALUES
     UPDATE `items` SET `weight` = 0.5 WHERE `item_id` = 34334; -- thoridal-the-stars-fury
 
 UPDATE `items` SET `expansion_id` = 2 WHERE `expansion_id` IS NULL;
+
+-- gems
+UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (32227,32230,32231,23436,32229,32249,23441,32228,23438,23439,23440,23437);
