@@ -833,42 +833,43 @@ UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (34527,34541,34528,34487,34
 -------------------------------------------------------------------------------
 
 -- Trash 140
-UPDATE `items` SET `parent_id` = 37006, `parent_item_id` = 34409 WHERE `item_id` = 34350 AND `expansion_id` = 2; -- gauntlets-of-the-ancient-frostwolf into gauntlets-of-the-ancient-shadowmoon
-UPDATE `items` SET `parent_id` = 37004, `parent_item_id` = 34407 WHERE `item_id` = 34351 AND `expansion_id` = 2; -- tranquil-moonlight-wraps into tranquil-majesty-wraps
+UPDATE `items` SET `parent_id` = 36948, `parent_item_id` = 34350 WHERE `item_id` = 34409 AND `expansion_id` = 2; -- gauntlets-of-the-ancient-frostwolf   into gauntlets-of-the-ancient-shadowmoon
+UPDATE `items` SET `parent_id` = 36949, `parent_item_id` = 34351 WHERE `item_id` = 34407 AND `expansion_id` = 2; -- tranquil-moonlight-wraps             into tranquil-majesty-wraps
 -- Kalecgos 142
-UPDATE `items` SET `parent_id` = 36984, `parent_item_id` = 34386 WHERE `item_id` = 34170 AND `expansion_id` = 2; -- pantaloons-of-growing-strife into pantaloons-of-calming-strife
-UPDATE `items` SET `parent_id` = 36982, `parent_item_id` = 34384 WHERE `item_id` = 34169 AND `expansion_id` = 2; -- breeches-of-natural-splendor into breeches-of-natural-aggression
-UPDATE `items` SET `parent_id` = 36980, `parent_item_id` = 34382 WHERE `item_id` = 34167 AND `expansion_id` = 2; -- judicators-legguards into legplates-of-the-holy-juggernaut
+UPDATE `items` SET `parent_id` = 36850, `parent_item_id` = 34170 WHERE `item_id` = 34386 AND `expansion_id` = 2; -- pantaloons-of-growing-strife         into pantaloons-of-calming-strife
+UPDATE `items` SET `parent_id` = 36849, `parent_item_id` = 34169 WHERE `item_id` = 34384 AND `expansion_id` = 2; -- breeches-of-natural-splendor         into breeches-of-natural-aggression
+UPDATE `items` SET `parent_id` = 36847, `parent_item_id` = 34167 WHERE `item_id` = 34382 AND `expansion_id` = 2; -- judicators-legguards                 into legplates-of-the-holy-juggernaut
 -- Brutallus 143
-UPDATE `items` SET `parent_id` = 36979, `parent_item_id` = 34381 WHERE `item_id` = 34180 AND `expansion_id` = 2; -- felstrength-legplates into felfury-legplates
+UPDATE `items` SET `parent_id` = 36860, `parent_item_id` = 34180 WHERE `item_id` = 34381 AND `expansion_id` = 2; -- felstrength-legplates                into felfury-legplates
 -- Felmyst 144
-UPDATE `items` SET `parent_id` = 36981, `parent_item_id` = 34383 WHERE `item_id` = 34186 AND `expansion_id` = 2; -- kilt-of-spiritual-reconstruction into chain-links-of-the-tumultuous-storm
-UPDATE `items` SET `parent_id` = 36983, `parent_item_id` = 34385 WHERE `item_id` = 34188 AND `expansion_id` = 2; -- leggings-of-the-immortal-beast into leggings-of-the-immortal-night
+UPDATE `items` SET `parent_id` = 36866, `parent_item_id` = 34186 WHERE `item_id` = 34383 AND `expansion_id` = 2; -- kilt-of-spiritual-reconstruction     into chain-links-of-the-tumultuous-storm
+UPDATE `items` SET `parent_id` = 36867, `parent_item_id` = 34188 WHERE `item_id` = 34385 AND `expansion_id` = 2; -- leggings-of-the-immortal-beast       into leggings-of-the-immortal-night
 -- Eredar Twins 145
-UPDATE `items` SET `parent_id` = 36990, `parent_item_id` = 34393 WHERE `item_id` = 34202 AND `expansion_id` = 2; -- shoulderpads-of-knowledges-pursuit into shawl-of-wonderment
-UPDATE `items` SET `parent_id` = 36988, `parent_item_id` = 34391 WHERE `item_id` = 34209 AND `expansion_id` = 2; -- spaulders-of-devastation into spaulders-of-reclamation
-UPDATE `items` SET `parent_id` = 36989, `parent_item_id` = 34392 WHERE `item_id` = 34195 AND `expansion_id` = 2; -- demontooth-shoulderpads into shoulderpads-of-vehemence
-UPDATE `items` SET `parent_id` = 36987, `parent_item_id` = 34390 WHERE `item_id` = 34208 AND `expansion_id` = 2; -- erupting-epaulets into equilibrium-epaulets
-UPDATE `items` SET `parent_id` = 36985, `parent_item_id` = 34388 WHERE `item_id` = 34192 AND `expansion_id` = 2; -- pauldrons-of-berserking into pauldrons-of-perseverance
-UPDATE `items` SET `parent_id` = 36986, `parent_item_id` = 34389 WHERE `item_id` = 34193 AND `expansion_id` = 2; -- spaulders-of-the-thalassian-defender into spaulders-of-the-thalassian-savior
+UPDATE `items` SET `parent_id` = 36881, `parent_item_id` = 34202 WHERE `item_id` = 34393 AND `expansion_id` = 2; -- shoulderpads-of-knowledges-pursuit   into shawl-of-wonderment
+UPDATE `items` SET `parent_id` = 36888, `parent_item_id` = 34209 WHERE `item_id` = 34391 AND `expansion_id` = 2; -- spaulders-of-devastation             into spaulders-of-reclamation
+UPDATE `items` SET `parent_id` = 36874, `parent_item_id` = 34195 WHERE `item_id` = 34392 AND `expansion_id` = 2; -- demontooth-shoulderpads              into shoulderpads-of-vehemence
+UPDATE `items` SET `parent_id` = 36887, `parent_item_id` = 34208 WHERE `item_id` = 34390 AND `expansion_id` = 2; -- erupting-epaulets                    into equilibrium-epaulets
+UPDATE `items` SET `parent_id` = 36871, `parent_item_id` = 34192 WHERE `item_id` = 34388 AND `expansion_id` = 2; -- pauldrons-of-berserking              into pauldrons-of-perseverance
+UPDATE `items` SET `parent_id` = 36872, `parent_item_id` = 34193 WHERE `item_id` = 34389 AND `expansion_id` = 2; -- spaulders-of-the-thalassian-defender into spaulders-of-the-thalassian-savior
 -- M'uru 146
-UPDATE `items` SET `parent_id` = 36994, `parent_item_id` = 34397 WHERE `item_id` = 34211 AND `expansion_id` = 2; -- bladed-chaos-tunic into harness-of-carnal-instinct
-UPDATE `items` SET `parent_id` = 36991, `parent_item_id` = 34394 WHERE `item_id` = 34215 AND `expansion_id` = 2; -- breastplate-of-agonys-aversion into warharness-of-reckless-fury
-UPDATE `items` SET `parent_id` = 36993, `parent_item_id` = 34396 WHERE `item_id` = 34229 AND `expansion_id` = 2; -- garments-of-crashing-shores into garments-of-serene-shores
-UPDATE `items` SET `parent_id` = 37005, `parent_item_id` = 34408 WHERE `item_id` = 34234 AND `expansion_id` = 2; -- gloves-of-the-forest-drifter into shadowed-gauntlets-of-paroxysm
-UPDATE `items` SET `parent_id` = 36992, `parent_item_id` = 34395 WHERE `item_id` = 34216 AND `expansion_id` = 2; -- noble-judicators-chestguard into heroic-judicators-chestguard
-UPDATE `items` SET `parent_id` = 36996, `parent_item_id` = 34399 WHERE `item_id` = 34233 AND `expansion_id` = 2; -- robes-of-ghostly-hatred into robes-of-faltered-light
-UPDATE `items` SET `parent_id` = 36995, `parent_item_id` = 34398 WHERE `item_id` = 34212 AND `expansion_id` = 2; -- utopian-tunic-of-elune into sunglow-vest
+UPDATE `items` SET `parent_id` = 36890, `parent_item_id` = 34211 WHERE `item_id` = 34397 AND `expansion_id` = 2; -- bladed-chaos-tunic                   into harness-of-carnal-instinct
+UPDATE `items` SET `parent_id` = 36894, `parent_item_id` = 34215 WHERE `item_id` = 34394 AND `expansion_id` = 2; -- breastplate-of-agonys-aversion       into warharness-of-reckless-fury
+UPDATE `items` SET `parent_id` = 36901, `parent_item_id` = 34229 WHERE `item_id` = 34396 AND `expansion_id` = 2; -- garments-of-crashing-shores          into garments-of-serene-shores
+UPDATE `items` SET `parent_id` = 36906, `parent_item_id` = 34234 WHERE `item_id` = 34408 AND `expansion_id` = 2; -- gloves-of-the-forest-drifter         into shadowed-gauntlets-of-paroxysm
+UPDATE `items` SET `parent_id` = 36895, `parent_item_id` = 34216 WHERE `item_id` = 34395 AND `expansion_id` = 2; -- noble-judicators-chestguard          into heroic-judicators-chestguard
+UPDATE `items` SET `parent_id` = 36905, `parent_item_id` = 34233 WHERE `item_id` = 34399 AND `expansion_id` = 2; -- robes-of-ghostly-hatred              into robes-of-faltered-light
+UPDATE `items` SET `parent_id` = 36891, `parent_item_id` = 34212 WHERE `item_id` = 34398 AND `expansion_id` = 2; -- utopian-tunic-of-elune               into sunglow-vest
 -- Kil'jaden 147
-UPDATE `items` SET `parent_id` = 37000, `parent_item_id` = 34403 WHERE `item_id` = 34245 AND `expansion_id` = 2; -- cover-of-ursoc-the-mighty into cover-of-ursol-the-wise
-UPDATE `items` SET `parent_id` = 36997, `parent_item_id` = 34400 WHERE `item_id` = 34345 AND `expansion_id` = 2; -- crown-of-dathremar into crown-of-anasterian
-UPDATE `items` SET `parent_id` = 37003, `parent_item_id` = 34406 WHERE `item_id` = 34342 AND `expansion_id` = 2; -- gloves-of-tyris-power into handguards-of-the-dawn
-UPDATE `items` SET `parent_id` = 37002, `parent_item_id` = 34405 WHERE `item_id` = 34339 AND `expansion_id` = 2; -- helm-of-arcane-purity into cowl-of-lights-purity
-UPDATE `items` SET `parent_id` = 36998, `parent_item_id` = 34401 WHERE `item_id` = 34243 AND `expansion_id` = 2; -- helm-of-uthers-resolve into helm-of-burning-righteousness
-UPDATE `items` SET `parent_id` = 37001, `parent_item_id` = 34404 WHERE `item_id` = 34244 AND `expansion_id` = 2; -- mask-of-the-fury-hunter into duplicitous-guise
-UPDATE `items` SET `parent_id` = 36999, `parent_item_id` = 34402 WHERE `item_id` = 34332 AND `expansion_id` = 2; -- shroud-of-chieftain-nerzhul into cowl-of-guldan
+UPDATE `items` SET `parent_id` = 36912, `parent_item_id` = 34245 WHERE `item_id` = 34403 AND `expansion_id` = 2; -- cover-of-ursoc-the-mighty            into cover-of-ursol-the-wise
+UPDATE `items` SET `parent_id` = 36943, `parent_item_id` = 34345 WHERE `item_id` = 34400 AND `expansion_id` = 2; -- crown-of-dathremar                   into crown-of-anasterian
+UPDATE `items` SET `parent_id` = 36940, `parent_item_id` = 34342 WHERE `item_id` = 34406 AND `expansion_id` = 2; -- gloves-of-tyris-power                into handguards-of-the-dawn
+UPDATE `items` SET `parent_id` = 36937, `parent_item_id` = 34339 WHERE `item_id` = 34405 AND `expansion_id` = 2; -- helm-of-arcane-purity                into cowl-of-lights-purity
+UPDATE `items` SET `parent_id` = 36910, `parent_item_id` = 34243 WHERE `item_id` = 34401 AND `expansion_id` = 2; -- helm-of-uthers-resolve               into helm-of-burning-righteousness
+UPDATE `items` SET `parent_id` = 36911, `parent_item_id` = 34244 WHERE `item_id` = 34404 AND `expansion_id` = 2; -- mask-of-the-fury-hunter              into duplicitous-guise
+UPDATE `items` SET `parent_id` = 36930, `parent_item_id` = 34332 WHERE `item_id` = 34402 AND `expansion_id` = 2; -- shroud-of-chieftain-nerzhul          into cowl-of-guldan
 
 UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (34350,34351,34170,34169,34167,34180,34186,34188,34202,34209,34195,34208,34192,34193,34211,34215,34229,34234,34216,34233,34212,34245,34345,34342,34339,34243,34244,34332);
+UPDATE `items` SET `weight` = 0.5 WHERE `item_id` IN (34409,34407,34386,34384,34382,34381,34383,34385,34393,34391,34392,34390,34388,34389,34397,34394,34396,34408,34395,34399,34398,34403,34400,34406,34405,34401,34404,34402);
 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
