@@ -635,8 +635,8 @@ UPDATE `items` SET `parent_id` = 37217, `parent_item_id` = 34856 WHERE `item_id`
 
 -- boots-of-the-forgotten-protector
 UPDATE `items` SET `parent_id` = 37218, `parent_item_id` = 34857 WHERE `item_id` = 34570 AND `expansion_id` = 2; -- gronnstalkers-boots
-UPDATE `items` SET `parent_id` = 37218, `parent_item_id` = 34857 WHERE `item_id` = 34546 AND `expansion_id` = 2; -- onslaught-belt
-UPDATE `items` SET `parent_id` = 37218, `parent_item_id` = 34857 WHERE `item_id` = 34547 AND `expansion_id` = 2; -- onslaught-waistguard
+UPDATE `items` SET `parent_id` = 37218, `parent_item_id` = 34857 WHERE `item_id` = 34568 AND `expansion_id` = 2; -- onslaught-boots
+UPDATE `items` SET `parent_id` = 37218, `parent_item_id` = 34857 WHERE `item_id` = 34569 AND `expansion_id` = 2; -- onslaught-treads
 UPDATE `items` SET `parent_id` = 37218, `parent_item_id` = 34857 WHERE `item_id` = 34565 AND `expansion_id` = 2; -- skyshatter-boots
 UPDATE `items` SET `parent_id` = 37218, `parent_item_id` = 34857 WHERE `item_id` = 34567 AND `expansion_id` = 2; -- skyshatter-greaves
 UPDATE `items` SET `parent_id` = 37218, `parent_item_id` = 34857 WHERE `item_id` = 34566 AND `expansion_id` = 2; -- skyshatter-treads
